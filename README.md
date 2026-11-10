@@ -2,6 +2,22 @@
 
 A full-stack Hospital Appointment Management System built with **Spring Boot** (Java) and **React** (TypeScript).
 
+## 📸 Screenshots
+
+### Login Page
+<img width="483" height="584" alt="Login-page" src="https://github.com/user-attachments/assets/19c9d050-9420-45bf-a9de-2316c969a74a" />
+
+### Dashboard
+<img width="1911" height="805" alt="Dashboard" src="https://github.com/user-attachments/assets/7f9b150c-cb90-4f77-ae20-229bca338b93" />
+
+### Book Appointment
+<img width="1906" height="753" alt="Book-Appointment-page" src="https://github.com/user-attachments/assets/40132586-1db4-4793-97a4-14d5275a95e0" />
+
+### Doctors Page
+<img width="1911" height="805" alt="Doctors-page" src="https://github.com/user-attachments/assets/ebb08376-2fec-4146-bdc3-9e3cc13beb43" />
+
+---
+
 ## 🚀 Tech Stack
 
 **Backend:**
@@ -18,6 +34,8 @@ A full-stack Hospital Appointment Management System built with **Spring Boot** (
 - Axios (HTTP client)
 - Context API (State management)
 
+---
+
 ## ✨ Features
 
 - 🔐 **JWT Authentication** — Secure login/register
@@ -26,6 +44,8 @@ A full-stack Hospital Appointment Management System built with **Spring Boot** (
 - 📊 **Dashboard** — View all appointments with status tracking
 - ❌ **Cancel Appointments** — Cancel pending appointments
 - 🏥 **Admin Panel** — Manage all appointments (admin role)
+
+---
 
 ## 🛠️ Setup & Run
 
@@ -51,12 +71,16 @@ npm start
 ```
 Frontend runs on: http://localhost:3000
 
+---
+
 ## 🔑 Demo Credentials
 
 | Role | Username | Password |
 |------|----------|----------|
 | Patient | patient1 | patient123 |
 | Admin | admin | admin123 |
+
+---
 
 ## 📡 API Endpoints
 
@@ -72,15 +96,6 @@ Frontend runs on: http://localhost:3000
 | PUT | /api/appointments/{id}/status | Update status (admin) |
 | DELETE | /api/appointments/{id} | Cancel appointment |
 
-## 📸 Screenshots
-
-**Login Page** → Clean login with demo credentials shown
-
-**Dashboard** → Stats overview + appointment list with status badges
-
-**Book Appointment** → Doctor selection with filter + date/time picker
-
-**Doctors Page** → Doctor cards with specialization filter
-
 ---
+
 Built by **Anjalee Srivastava** | Java Full-Stack Developer
